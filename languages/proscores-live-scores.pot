@@ -1,0 +1,247 @@
+# Copyright (C) 2024 LiveScores.pro
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ProScores - Live Scores 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trunk\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-07T05:19:57+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: proscores-live-scores\n"
+
+#. Plugin Name of the plugin
+#: proscores.php
+msgid "ProScores - Live Scores"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: proscores.php
+msgid "https://widgets.proscores.app"
+msgstr ""
+
+#. Description of the plugin
+#: proscores.php
+msgid "ProScores provides a fully customizable and responsive live scores page, free of ads and iframes. Developed by Livescores.pro"
+msgstr ""
+
+#. Author of the plugin
+#: proscores.php
+msgid "LiveScores.pro"
+msgstr ""
+
+#. Author URI of the plugin
+#: proscores.php
+msgid "https://livescores.pro"
+msgstr ""
+
+#: proscores.php:67
+msgid "Settings reset to default."
+msgstr ""
+
+#: proscores.php:93
+msgid "ProScores Settings"
+msgstr ""
+
+#: proscores.php:106
+msgid "Reset to Default"
+msgstr ""
+
+#: proscores.php:110
+msgid "Live Preview"
+msgstr ""
+
+#: proscores.php:116
+msgid "Instructions for Using the ProScores"
+msgstr ""
+
+#: proscores.php:118
+msgid "Basic Usage"
+msgstr ""
+
+#: proscores.php:120
+msgid "Use the [proscores] shortcode to display today's scores."
+msgstr ""
+
+#: proscores.php:121
+msgid "Live matches: [proscores list=\"live\"] Yesterday's results: [proscores list=\"yesterday\"] Tomorrow's fixtures: [proscores list=\"tomorrow\"] "
+msgstr ""
+
+#: proscores.php:122
+msgid "You can set font size and font family attributes. For example: [proscores font-family=\"sans-serif\"]."
+msgstr ""
+
+#: proscores.php:125
+msgid "Shortcode for Leagues"
+msgstr ""
+
+#: proscores.php:127
+msgid "To display scores for the England - Premier League, use the following shortcode: [proscores list=\"league\" path=\"/a/50/league/england-premier-league/\"]"
+msgstr ""
+
+#: proscores.php:128
+msgid "For other leagues, visit our site at Livescores.pro and navigate to the desired league page. In the address bar, you will see a URL like https://livescores.pro/a/50/league/england-premier-league/. Copy the path part, which in this example is /a/50/league/england-premier-league/, and use it in the shortcode."
+msgstr ""
+
+#: proscores.php:131
+msgid "When you set \"Credit Author\" to \"Off\" means:"
+msgstr ""
+
+#: proscores.php:133
+msgid "You are not linking back to author site."
+msgstr ""
+
+#: proscores.php:134
+msgid "ProScores will work in an iframe that sized 100% x 8000px ."
+msgstr ""
+
+#: proscores.php:135
+msgid "Color and Font customizations will be default setting."
+msgstr ""
+
+#: proscores.php:138
+msgid "When you set \"Credit Author\" to \"On\" means:"
+msgstr ""
+
+#: proscores.php:140
+msgid "You are linking back to author site."
+msgstr ""
+
+#: proscores.php:141
+msgid "ProScores will work without an iframe."
+msgstr ""
+
+#: proscores.php:142
+msgid "Color and Font customizations will be your setting."
+msgstr ""
+
+#: proscores.php:151
+msgid "Main Settings"
+msgstr ""
+
+#: proscores.php:152
+msgid "Language"
+msgstr ""
+
+#: proscores.php:153
+msgid "Credit Author"
+msgstr ""
+
+#: proscores.php:153
+#: proscores.php:157
+#: proscores.php:186
+msgid "OFF"
+msgstr ""
+
+#: proscores.php:153
+#: proscores.php:157
+#: proscores.php:186
+msgid "ON"
+msgstr ""
+
+#: proscores.php:153
+msgid "Turn it ON to use your custom colors, or keep it OFF for default colors. For more details, see Notes at the bottom of the page."
+msgstr ""
+
+#: proscores.php:154
+#: proscores.php:169
+msgid "Font Size"
+msgstr ""
+
+#: proscores.php:156
+msgid "Match Row"
+msgstr ""
+
+#: proscores.php:157
+msgid "Live Match Tracker (Text)"
+msgstr ""
+
+#: proscores.php:158
+msgid "Background (1)"
+msgstr ""
+
+#: proscores.php:159
+msgid "Background (2)"
+msgstr ""
+
+#: proscores.php:160
+#: proscores.php:170
+#: proscores.php:177
+#: proscores.php:182
+msgid "Font Transform"
+msgstr ""
+
+#: proscores.php:160
+#: proscores.php:170
+#: proscores.php:177
+#: proscores.php:182
+msgid "Capitalize"
+msgstr ""
+
+#: proscores.php:160
+#: proscores.php:170
+#: proscores.php:177
+#: proscores.php:182
+msgid "Uppercase"
+msgstr ""
+
+#: proscores.php:161
+#: proscores.php:168
+#: proscores.php:176
+#: proscores.php:181
+msgid "Font Color"
+msgstr ""
+
+#: proscores.php:162
+msgid "Live Color"
+msgstr ""
+
+#: proscores.php:163
+msgid "Scored Team Background"
+msgstr ""
+
+#: proscores.php:164
+msgid "Scored Match Score Background"
+msgstr ""
+
+#: proscores.php:166
+msgid "Match Details"
+msgstr ""
+
+#: proscores.php:167
+#: proscores.php:175
+#: proscores.php:180
+msgid "Background"
+msgstr ""
+
+#: proscores.php:171
+msgid "Score Background"
+msgstr ""
+
+#: proscores.php:172
+msgid "Score Font Color"
+msgstr ""
+
+#: proscores.php:174
+msgid "Country"
+msgstr ""
+
+#: proscores.php:179
+msgid "League"
+msgstr ""
+
+#: proscores.php:184
+msgid "Premium Features"
+msgstr ""
+
+#: proscores.php:186
+msgid "Live Match Tracker (Animated)"
+msgstr ""
+
+#: proscores.php:188
+msgid "Your Domain Token"
+msgstr ""

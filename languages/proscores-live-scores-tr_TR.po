@@ -1,0 +1,232 @@
+# Copyright (C) 2024 LiveScores.pro
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ProScores - Live Scores 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trunk\n"
+"POT-Creation-Date: 2024-08-07T05:19:57+00:00\n"
+"PO-Revision-Date: 2024-08-07 08:28+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Domain: proscores-live-scores\n"
+
+#. Plugin Name of the plugin
+#: proscores.php
+msgid "ProScores - Live Scores"
+msgstr "ProScores - Canlı Skor"
+
+#. Plugin URI of the plugin
+#: proscores.php
+msgid "https://widgets.proscores.app"
+msgstr ""
+
+#. Description of the plugin
+#: proscores.php
+msgid "ProScores provides a fully customizable and responsive live scores page, free of ads and iframes. Developed by Livescores.pro"
+msgstr "ProScores, reklam ve iframe içermeyen, tamamen özelleştirilebilir ve duyarlı bir canlı skor sayfası sağlar. MacSkorlari.com tarafından geliştirildi."
+
+#. Author of the plugin
+#: proscores.php
+msgid "LiveScores.pro"
+msgstr "MacSkorlari.com"
+
+#. Author URI of the plugin
+#: proscores.php
+msgid "https://livescores.pro"
+msgstr "https://macskorlari.com"
+
+#: proscores.php:67
+msgid "Settings reset to default."
+msgstr "Varsayılan ayarlar yüklendi."
+
+#: proscores.php:93
+msgid "ProScores Settings"
+msgstr "ProScores Ayarları"
+
+#: proscores.php:106
+msgid "Reset to Default"
+msgstr "Varsayılan Ayarlara Dön"
+
+#: proscores.php:110
+msgid "Live Preview"
+msgstr "Canlı Önizleme"
+
+#: proscores.php:116
+msgid "Instructions for Using the ProScores"
+msgstr "ProScores Kullanım Talimatları"
+
+#: proscores.php:118
+msgid "Basic Usage"
+msgstr "Basit Kullanım"
+
+#: proscores.php:120
+msgid "Use the [proscores] shortcode to display today's scores."
+msgstr "Canlı skorların görünmesini istediğiniz yere [proscores] shortcode’unu ekleyin."
+
+#: proscores.php:121
+msgid "Live matches: [proscores list=\"live\"] Yesterday's results: [proscores list=\"yesterday\"] Tomorrow's fixtures: [proscores list=\"tomorrow\"] "
+msgstr "Canlı maçlar: [proscores list=\"live\"] Dünün sonuçları: [proscores list=\"yesterday\"] Yarının fikstürleri: [proscores list=\"tomorrow\"]"
+
+#: proscores.php:122
+msgid "You can set font size and font family attributes. For example: [proscores font-family=\"sans-serif\"]."
+msgstr "Yazı tipi boyutunu ve yazı tipi ailesi özelliklerini ayarlayabilirsiniz. Örneğin: [proscores font-family=\"sans-serif\"]."
+
+#: proscores.php:125
+msgid "Shortcode for Leagues"
+msgstr "Ligler İçin Kısa Kod"
+
+#: proscores.php:127
+msgid "To display scores for the England - Premier League, use the following shortcode: [proscores list=\"league\" path=\"/a/50/league/england-premier-league/\"]"
+msgstr "İngiltere - Premier Lig için skorları göstermek için şu kısa kodu kullanın: [proscores list=\"league\" path=\"/a/50/league/england-premier-league/\"]"
+
+#: proscores.php:128
+msgid ""
+"For other leagues, visit our site at Livescores.pro and navigate to the desired league page. In the address bar, you will see a URL like https://livescores.pro/a/50/league/england-premier-league/. Copy the path part, which in this example is /a/50/league/england-premier-league/, and use "
+"it in the shortcode."
+msgstr ""
+"Diğer ligler için Livescores.pro sitemizi ziyaret edin ve istediğiniz lig sayfasına gidin. Adres çubuğunda https://livescores.pro/a/50/league/england-premier-league/ gibi bir URL göreceksiniz. Örnekte olduğu gibi yolu kopyalayın, /a/50/league/england-premier-league/, ve kısa koda ekleyin."
+
+#: proscores.php:131
+msgid "When you set \"Credit Author\" to \"Off\" means:"
+msgstr "“Credit Author”ni \"Kapalı\" olarak ayarladığınızda:"
+
+#: proscores.php:133
+msgid "You are not linking back to author site."
+msgstr "Geliştiricinin sitesine geri bağlantı vermiyorsunuz."
+
+#: proscores.php:134
+msgid "ProScores will work in an iframe that sized 100% x 8000px ."
+msgstr "ProScores, 100% x 8000px boyutunda bir iframe içinde çalışacak."
+
+#: proscores.php:135
+msgid "Color and Font customizations will be default setting."
+msgstr "Renk ve Yazı tipi özelleştirmeleri varsayılan ayarlar olacak."
+
+#: proscores.php:138
+msgid "When you set \"Credit Author\" to \"On\" means:"
+msgstr "\"Credit Author\"ni \"Açık\" olarak ayarladığınızda:"
+
+#: proscores.php:140
+msgid "You are linking back to author site."
+msgstr "Geliştiricinin sitesine geri bağlantı veriyorsunuz."
+
+#: proscores.php:141
+msgid "ProScores will work without an iframe."
+msgstr "ProScores iframe olmadan çalışacak."
+
+#: proscores.php:142
+msgid "Color and Font customizations will be your setting."
+msgstr "Renk ve Yazı tipi özelleştirmeleri sizin ayarlarınız olacak."
+
+#: proscores.php:151
+msgid "Main Settings"
+msgstr "Ana Ayarlar"
+
+#: proscores.php:152
+msgid "Language"
+msgstr "Dil"
+
+#: proscores.php:153
+msgid "Credit Author"
+msgstr "Credit Author"
+
+#: proscores.php:153 proscores.php:157 proscores.php:186
+msgid "OFF"
+msgstr "KAPALI"
+
+#: proscores.php:153 proscores.php:157 proscores.php:186
+msgid "ON"
+msgstr "AÇIK"
+
+#: proscores.php:153
+msgid "Turn it ON to use your custom colors, or keep it OFF for default colors. For more details, see Notes at the bottom of the page."
+msgstr "Özelleştirilmiş renklerinizi kullanmak için bunu AÇIK yapın veya varsayılan renkler için KAPALI tutun. Daha fazla bilgi için sayfanın altındaki Notlar kısmına bakın."
+
+#: proscores.php:154 proscores.php:169
+msgid "Font Size"
+msgstr "Yazı Tipi Boyutu"
+
+#: proscores.php:156
+msgid "Match Row"
+msgstr "Maç Satırı"
+
+#: proscores.php:157
+msgid "Live Match Tracker (Text)"
+msgstr "Canlı Anlatımı (Yazılı)"
+
+#: proscores.php:158
+msgid "Background (1)"
+msgstr "Arka Plan (1)"
+
+#: proscores.php:159
+msgid "Background (2)"
+msgstr "Arka Plan (2)"
+
+#: proscores.php:160 proscores.php:170 proscores.php:177 proscores.php:182
+msgid "Font Transform"
+msgstr "Yazı Tipi Dönüşümü"
+
+#: proscores.php:160 proscores.php:170 proscores.php:177 proscores.php:182
+msgid "Capitalize"
+msgstr "Baş Harfleri Büyük Yap"
+
+#: proscores.php:160 proscores.php:170 proscores.php:177 proscores.php:182
+msgid "Uppercase"
+msgstr "Büyük Harf"
+
+#: proscores.php:161 proscores.php:168 proscores.php:176 proscores.php:181
+msgid "Font Color"
+msgstr "Yazı Rengi"
+
+#: proscores.php:162
+msgid "Live Color"
+msgstr "Canlı Renk"
+
+#: proscores.php:163
+msgid "Scored Team Background"
+msgstr "Skor Yapan Takım Arka Planı"
+
+#: proscores.php:164
+msgid "Scored Match Score Background"
+msgstr "Skor Yapılan Maç Skor Arka Planı"
+
+#: proscores.php:166
+msgid "Match Details"
+msgstr "Maç Detayları"
+
+#: proscores.php:167 proscores.php:175 proscores.php:180
+msgid "Background"
+msgstr "Arka Plan"
+
+#: proscores.php:171
+msgid "Score Background"
+msgstr "Skor Arka Planı"
+
+#: proscores.php:172
+msgid "Score Font Color"
+msgstr "Skor Yazı Rengi"
+
+#: proscores.php:174
+msgid "Country"
+msgstr "Ülke"
+
+#: proscores.php:179
+msgid "League"
+msgstr "Lig"
+
+#: proscores.php:184
+msgid "Premium Features"
+msgstr "Premium Özellikler"
+
+#: proscores.php:186
+msgid "Live Match Tracker (Animated)"
+msgstr "Canlı Anlatım (Animasyonlu)"
+
+#: proscores.php:188
+msgid "Your Domain Token"
+msgstr "Alan Adı Jetonunuz"
